@@ -11,6 +11,14 @@ background-color: grey;
     border: 15px #8C8D8A solid ;
     box-sizing: border-box;
     background: linear-gradient(#D1D3D1, #DEE1E5);
+    transition: all .5s ease-out;
+}
+
+#nametag-container:hover{
+	background-color:#6C6E69;
+	border-color: #C6CBD1;
+	
+
 }
 
 h1,
@@ -20,8 +28,6 @@ h3 {
 	font-family: helvetica;
 	font-weight: normal;
 	line-height: 20px;
-
-
 }
 
 h1{
