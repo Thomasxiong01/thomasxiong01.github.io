@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Octin Prison Rg';
+    src: url('OctinPrisonRg.woff2') format('woff2'),
+        url('OctinPrisonRg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Noto+Sans:ital@1&display=swap');

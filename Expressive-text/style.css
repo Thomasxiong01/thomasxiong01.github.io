@@ -1,0 +1,95 @@
+#poetry p {
+	text-align: center;
+	height: 60vh;
+	margin: 0;
+	font-family: 'note sans,';
+
+}
+
+
+#poetry h1{
+	background-image: url('1.jpg');
+	font-size: 45pt;
+	color: white;
+	line-height: 170pt;
+	font-family: "Octin Prison Rg";
+	font-weight: normal;
+	margin: 0;
+	text-align: center;
+}
+
+.transformation{
+	width: 50px;
+	height: 50px;
+	background-color: grey;
+	margin: 10px auto 0;
+	border: 20px;
+	box-sizing: border-box;
+
+}
+.transformation2{
+	width: 50px;
+	height: 50px;
+	background-color: black;
+}
+
+
+	
+}
+
+
+
+
+
+
+
+#poetry p:nth-child(1)
+
+{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+51,f6f6f6+100;White+Gloss+%231 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+font-family: 'Marck Script', cursive;
+line-height: 60px;
+height: 300px;
+
+
+}
+
+
+
+
+#poetry p:nth-child(odd)
+{
+
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+51,f6f6f6+100;White+Gloss+%231 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+font-size: 25pt;
+font-family: 'Marck Script', cursive;
+line-height: 60px;
+
+}
+
+
+#poetry p:nth-child(even)
+{
+
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#636363+0,969696+55,6b6b6b+100&1+0,0.25+100 */
+background: -moz-linear-gradient(top,  rgba(99,99,99,1) 0%, rgba(150,150,150,0.59) 55%, rgba(107,107,107,0.25) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(99,99,99,1) 0%,rgba(150,150,150,0.59) 55%,rgba(107,107,107,0.25) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(99,99,99,1) 0%,rgba(150,150,150,0.59) 55%,rgba(107,107,107,0.25) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#636363', endColorstr='#406b6b6b',GradientType=0 ); /* IE6-9 */
+font-size: 25pt;
+font-family: 'Marck Script', cursive;
+line-height: 60px;
+height: 300px;
+color: white
+
+}
