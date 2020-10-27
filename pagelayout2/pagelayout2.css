@@ -1,0 +1,376 @@
+body{
+	background-image: url('1.jpg');
+	background-position: center;
+
+}
+
+nav{
+
+	
+	height: 80px;
+	background-color: #797A79;
+	padding: 30px 30px;
+	margin: 40px;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+
+
+#logo{
+	height: 70px;
+	font-family: arial;
+	font-style: regular;
+	font-size: 30pt;
+	color: white;
+	margin: 0;
+	line-height: 70px; 
+	width: 120px;
+
+
+}
+
+#home{
+	color: white;
+	background-color: #FE545B;
+	height: 50px;
+
+	width: 80px;
+	line-height: 50px;
+	text-align: center;
+	font-family: arial;
+	margin-top: 13px;
+
+}
+#courses{
+	height: 50px;
+	
+	width: 80px;
+	line-height: 50px;
+	text-align: center;
+	font-family: arial;
+	background-color: #FE545B;
+	color: white;
+	margin-top: 13px;
+
+}
+
+#topics{
+	height: 50px;
+	
+	width: 80px;
+	line-height: 50px;
+	text-align: center;
+	font-family: arial;
+	background-color: #FE545B;
+	color: white;
+	margin-top: 13px;
+}
+
+
+#about{
+	height: 50px;
+	
+	width: 80px;
+	line-height: 50px;
+	text-align: center;
+	font-family: arial;
+	background-color: #FE545B;
+	color: white;
+	margin-top: 13px;
+}
+
+#help{
+	height: 50px;
+	
+	width: 80px;
+	line-height: 50px;
+	text-align: center;
+	font-family: arial;
+	background-color: #FE545B;
+	color: white;
+	margin-top: 13px;
+}
+
+
+#learningportfolio{
+	height: 80px;
+	width: 90%;
+	background-color: white;
+	text-align: center;
+	padding: 30px;
+	margin: 40px;
+	font-size: 60px;
+	font-family: helvetica;
+	font-style: bold;
+
+}
+
+
+#featured-video{
+
+	background: #A6D5B7;
+}
+
+#another-color{
+
+	background: #77BDCC
+
+}
+
+#third-color{
+
+	background: #BD83E1
+}
+
+
+/*al:hover{
+	opacity: 5;
+	transition: 1s all-ease-out;
+} why can't?
+*/
+
+
+
+
+
+#project-grid{
+	padding: 33px;
+	margin: 40px;
+}
+
+.portfolio-category {
+
+	margin-top: 40px;
+	padding: 30px;
+	background-image: url('1.jpg');
+
+}
+
+.portfolio-category ul{
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+
+}
+.portfolio-category li{
+	height: 320px;
+	background: pink;
+
+}
+
+.portfolio-category ul{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	column-gap: 30px;
+	row-gap: 30px;
+	align-self: start;
+	align-items: stretch;
+
+
+}
+
+
+@media (max-width: 1063px){
+
+#help{
+
+	display: none;
+
+}
+
+#logo{
+	height: 35px;
+	font-family: arial;
+	font-style: regular;
+	font-size: 22pt;
+	color: white;
+	margin: 0;
+	line-height: 30spx; 
+	width: 60px;}
+
+	#home{
+	color: white;
+	background-color: #FE545B;
+	height: 30px;
+
+	width: 50px;
+	line-height: 30px;
+	text-align: center;
+	font-family: arial;
+	margin-top: 18px;}
+
+
+	#courses{
+	height: 30px;
+	
+	width: 100px;
+	line-height: 30px;
+	text-align: center;
+	font-family: arial;
+	background-color: #FE545B;
+	color: white;
+	margin-top: 18px;}
+
+
+#topics{
+	height: 30px;
+	
+	width: 60px;
+	line-height: 30px;
+	text-align: center;
+	font-family: arial;
+	background-color: #FE545B;
+	color: white;
+	margin-top: 18px;
+}
+
+
+#about{
+	height: 30px;
+	
+	width: 60px;
+	line-height: 30px;
+	text-align: center;
+	font-family: arial;
+	background-color: #FE545B;
+	color: white;
+	margin-top: 18px;
+}
+
+#learningportfolio{
+	height: 60px;
+	
+	background-color: #70B9D2;
+	text-align: center;
+	padding: 30px;
+	margin: 40px;
+	font-size: 45px;
+	font-family: helvetica;
+	font-style: bold;
+	color: white;
+
+}
+
+#project-grid{
+	padding: 33px;
+	margin: 40px;
+}
+
+.portfolio-category {
+
+	margin-top: 30px;
+	padding: 20px;
+	background-image: url('1.jpg');
+
+}
+
+.portfolio-category ul{
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+
+}
+.portfolio-category li{
+	height: 320px;
+	background: pink;
+
+}
+
+.portfolio-category ul{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	column-gap: 20px;
+	row-gap: 20px;
+	align-self: start;
+	align-items: stretch;
+
+
+}
+
+
+
+
+
+
+}
+
+
+@media (max-width: 818px){
+
+#help{
+
+	display: none;
+
+}
+
+#about{
+	display: none;
+}
+
+#home{
+	display: none;
+}
+
+#courses{
+	display: none;
+}
+
+#topics{
+	display: none;
+}
+
+
+#learningportfolio{
+	height: 45px;
+	
+	background-color: #70B9D2;
+	text-align: center;
+	padding: 30px;
+	margin: 40px;
+	font-size: 30px;
+	font-family: helvetica;
+	font-style: bold;
+	color: white;
+
+}
+
+
+.portfolio-category ul{
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	column-gap: 20px;
+	row-gap: 20px;
+	align-self: start;
+	align-items: stretch;
+
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
