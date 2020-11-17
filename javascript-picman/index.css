@@ -1,0 +1,46 @@
+
+body{
+
+  background-color: #FEFE00
+}
+
+html, body, div {
+  margin: 0;
+}
+
+.map {
+  display: flex;
+  flex-wrap: wrap;
+  width: 360px;
+  height: 360px;
+  margin: 0 auto;
+  background-color: #353430;
+  padding: 25px;
+  position: relative;
+}
+
+.rect {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.h1 {
+  text-align: center;
+  color: #0175FB;
+  font-family: helvetica;
+  font-size: 40pt;
+}
+
+.snack {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 30px;
+}
+
+.black {
+  background-color: #353430;
+}
