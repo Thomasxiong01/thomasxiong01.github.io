@@ -1,0 +1,31 @@
+.hd {
+  display: flex;
+}
+
+.btn button{
+  outline: 0;
+  background: white;
+  color: #40a9ff;
+  border: 1px solid #40a9ff;
+  padding: 8px 16px;
+  border-radius: 2px;
+}
+
+.link a{
+  margin-left: 20px;
+  color: #40a9ff;
+  text-decoration: none;
+  line-height: 33px;
+  display: inline-block;
+}
+
+header, main {
+  padding: 20px;
+}
+
+.main {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  grid-gap: 40px;
+}

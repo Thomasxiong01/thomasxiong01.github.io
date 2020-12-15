@@ -1,0 +1,36 @@
+body {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 40px;
+}
+.hd {
+  display: flex;
+}
+.btn {
+  display: flex;
+  align-items: center;
+}
+.btn button{
+  outline: 0;
+  background: white;
+  color: #40a9ff;
+  border: 1px solid #40a9ff;
+  padding: 8px 16px;
+  border-radius: 2px;
+}
+
+.link a{
+  margin-left: 20px;
+  color: #40a9ff;
+  text-decoration: none;
+  line-height: 33px;
+  display: inline-block;
+}
+
+header, main {
+  padding: 20px;
+}
+
+a {
+  color: #aaa;
+  text-decoration: none;
+}

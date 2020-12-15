@@ -1,0 +1,44 @@
+
+body{
+	background: orange;
+	
+  margin: 20px;
+  padding: 20px;
+  font-family: helvetica;
+  font-size: 20px;
+  color: #8FE260;
+
+}
+.hd {
+  display: flex;
+
+
+
+
+.btn button{
+  outline: 0;
+  background: white;
+  color: #6DBE44;
+  border: 5px solid green;
+  padding: 8px 16px;
+  border-radius: 2px;
+}
+
+h2{
+  margin-left: 30px;
+  display: inline-block;
+  padding: 30px
+
+
+}
+
+main{
+  color: #8FE260;
+}
+
+.finalproject{
+
+  margin-left: 30px;
+  display: inline-block;
+  padding: 50px
+}
